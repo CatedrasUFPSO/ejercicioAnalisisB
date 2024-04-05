@@ -21,18 +21,14 @@ public class FreightTransport {
         Vehicle vehicle2= new Vehicle("Carro", 3500,"KJT23",drive2);
         Vehicle vehicle3= new Vehicle("Camión", 4000,"KJK23",drive3);
         
-        //paquetes
-        CantPackages packagee= new CantPackages(3,"ad33");
-        packagee.addPackage(2);
         
-        
-//        drive1.setName("Mauricio");
-//        drive2.setAge(25);
-//        System.out.println("Datos del conductor 1: "+drive1.toString());
-//        System.out.println("Datos del conductor 1: "+drive2.toString());
-//        vehicle2.setKmTours(1000);
-//        vehicle1.setVehicleType("Motocarga");
-//        System.out.println("Datos del vehiculo 1: "+vehicle1.toString());
+        drive1.setName("Mauricio");
+        drive2.setAge(25);
+        System.out.println("Datos del conductor 1: "+drive1.toString());
+        System.out.println("Datos del conductor 1: "+drive2.toString());
+        vehicle2.setKmTours(1000);
+        vehicle1.setVehicleType("Motocarga");
+        System.out.println("Datos del vehiculo 1: "+vehicle1.toString());
         
     }
 }
