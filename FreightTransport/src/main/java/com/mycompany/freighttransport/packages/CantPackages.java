@@ -29,10 +29,10 @@ public class CantPackages {
     
     
     
-    public void addPackage(int numberPackages){
+    public void addPackage(int packagee){
         for(CantPackages cant :   listPackages){
-            if(numberPackages <= cant.getCantOfPackages() ){
-                cant.addPackage(numberPackages);
+            if(packagee <= cant.getCantOfPackages() ){
+                cant.addPackage(packagee);
             }
         }
         System.out.println("Se excede del limite de paquetes permitidos");

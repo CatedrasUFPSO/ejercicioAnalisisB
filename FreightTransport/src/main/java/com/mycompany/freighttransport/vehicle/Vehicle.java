@@ -22,7 +22,46 @@ public class Vehicle {
         this.listVehicles=new ArrayList();
     }
 
-    
+    public String getVehicleType() {
+        return vehicleType;
+    }
+
+    public void setVehicleType(String vehicleType) {
+        this.vehicleType = vehicleType;
+    }
+
+    public int getKmTours() {
+        return kmTours;
+    }
+
+    public void setKmTours(int kmTours) {
+        this.kmTours = kmTours;
+    }
+
+    public String getPlate() {
+        return plate;
+    }
+
+//    public void setPlate(String plate) {
+//        this.plate = plate;
+//    }
+
+    public Driver getDrive() {
+        return drive;
+    }
+
+    public void setDrive(Driver drive) {
+        this.drive = drive;
+    }
+
+    public ArrayList<Vehicle> getListVehicles() {
+        return listVehicles;
+    }
+
+    public void setListVehicles(ArrayList<Vehicle> listVehicles) {
+        this.listVehicles = listVehicles;
+    }
+
     
     public void registerVehicle(Vehicle vehicle){
         for(Vehicle car: listVehicles){
